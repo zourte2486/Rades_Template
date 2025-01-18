@@ -81,6 +81,23 @@ header .container .logo img {
     color: var(--main-color);
 }
 
+@media (max-width: 767px) {
+    header .container .logo img {
+        width: 100%;
+        height: 50px;
+    }
+}
+
+header nav {
+    display: flex;
+}
+
+@media (max-width: 767px) {
+    header nav {
+        margin: auto;
+    }
+}
+
 header .container nav ul {
     display: flex;
 }
@@ -97,15 +114,16 @@ header .container nav ul li a {
     font-size: 18px;
     transition: var(--main-transition);
 }
+
 @media (max-width: 767px) {
-    .header .main-nav > li > a {
-      padding: 10px;
-      font-size: 14px;
-      height: 40px;
+    header nav li a {
+        padding: 10px;
+        font-size: 14px;
+        height: 40px;
     }
-  }
+}
 
 header .container nav ul li a::before {
     content: "";
-    
+
 }
