@@ -50,3 +50,17 @@
       width: 1170px;
     }
   }
+
+  /* End Global Rules */    
+  /* Start Header */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: var(--main-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: var(--main-transition);
+  }
